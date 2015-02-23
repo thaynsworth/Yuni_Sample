@@ -101,8 +101,8 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 }
 
 .rmm.minimal .rmm-main-list li a:hover {
-    border-color: #e09224;
-    background-color: #e09224;
+    border-color: black;
+    background-color: #fff;
 }
 
 .rmm.minimal .rmm-toggled {
