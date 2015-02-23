@@ -76,7 +76,7 @@
 <header class="fixed-nav-bar">
 <div class="container nav">
       <div class="three columns logo center">
-      <a href="#home"><img src="./images/yunilogo.png" height="120px" width="120px" alt""></a>
+      <a href="#home"><img src="./images/yunilogo.png" alt""></a>
       </div>
       <div class="thirteen columns navigation">
         <nav>
@@ -110,7 +110,7 @@
 </div>
 
 
-<div class="service" id="service">
+<div class="service" id="package">
     <div class="container">
     
         <div class="sixteen columns">
@@ -525,6 +525,26 @@
 
 <!-- End Document
 ================================================== -->
+
+<script>
+  var mainbottom = $('#home').offset().top + $('#home').height();
+
+  $(window).on('scroll',function(){
+
+    // we round here to reduce a little workload
+    stop = Math.round($(window).scrollTop());
+    if (stop > mainbottom) {
+        $('.fixed-nav-bar').addClass('past-main');
+        $('.logo').addClass('past-main');
+        $('.rmm').addClass('past-main');
+    } else {
+        $('.fixed-nav-bar').removeClass('past-main');
+        $('.logo').removeClass('past-main');
+        $('.rmm').removeClass('past-main');
+   }
+
+  });
+</script>
 
 <script type="text/javascript">
   $(window).load(function() {
