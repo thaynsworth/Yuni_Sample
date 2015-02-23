@@ -597,7 +597,7 @@ p {
 
 /* #Pricing */
 
-#price {
+#strategy {
 	background-color: #bf5a24;
 	padding-top: 60px;
 	padding-bottom: 80px;
@@ -607,13 +607,13 @@ p {
 	padding-bottom: 60px;
 }
 
-.pricetable {
+.strategytable {
     max-width: auto; 
     max-height:400px;
     padding-bottom: 60px; 
 }
 
-.pritab{
+.strategytab{
     margin-left: auto;
     margin-right: auto;
 	max-width: auto; 
@@ -645,13 +645,13 @@ th {
 	margin-top: -20px;
 }
 
-.price {
+.strategy {
 	font-size: 40px;
 	color: #3d3d3d;
 	font-weight: 700;
 }
 
-.price p{
+.strategy p{
 	font-size: 12px;
 	font-weight: 700;
 	text-transform: uppercase;
